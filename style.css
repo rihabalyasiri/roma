@@ -1,0 +1,241 @@
+/******* basic   *********/
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Mr Dafoe', cursive; */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*********  header   **********/
+
+.header {
+    background: url(img/cleo-topper.jpg) center/cover;
+    background-attachment: fixed;
+    position: relative;
+    width: 100%;
+    padding-bottom: 300%;
+}
+
+.block__logo {
+    position: absolute;
+    right: 40px;
+    top: 10px;
+}
+
+.logo-img {
+    width:20px;
+    height: 20px;
+}
+
+.header__logo {
+    color:#efefef;
+    font-size: 1.8rem;
+    vertical-align: center;
+    border-bottom: 1px solid #e7bc0e;
+    margin-left: 20px;
+}
+
+.header__title {
+    color:#efefef;
+    width:40%;
+    font-size: 7rem;
+    position: absolute;
+    left: 10%;
+    top: 3%;
+    line-height: 1.4;
+    
+}
+
+.header__btn {
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    text-decoration: none;
+    color:#e7bc0e;
+    font-size: 3rem;
+    font-family: 'Mr Dafoe', cursive;
+    letter-spacing: 2px;
+}
+
+.header__btn::after {
+    content: '\02F0';
+    margin-left: 15px;
+    font-size: 5rem;
+}
+
+
+.section-two__title {
+    color:#6bc1a3;
+    font-size: 3.5rem;
+    line-height: 1.7;
+    font-weight: 600;
+    width:70%;
+    position: absolute;
+    top: 23%;
+    left: 10%;
+}
+
+.section-two__title--white {
+    color:#efefef;
+    font-size: 3.5rem;
+    font-weight: 600;
+    background-color: rgb(44,37,43);
+}
+
+
+.block {
+    position: absolute;
+    width:30%;
+}
+
+.block-1 {
+    top:40%;
+    left: 30%;
+}
+
+.block-2 {
+    top:55%;
+    left: 30%;
+}
+
+.block-3 {
+    top:70%;
+    left: 30%;
+}
+
+.block__icon {
+    width:150px;
+    height: 150px;
+    margin-bottom: 40px;
+}
+
+.block__icon-img {
+    width:100%;
+    height: 100%;
+}
+
+.block__title-yellow {
+    color:#e7bc0e;
+    font-size: 3rem;
+}
+
+.block__title-pink {
+    color:#cb91b6;
+    font-size: 3rem;
+}
+
+.block__title-green {
+    color:#6bc1a3;
+    font-size: 3rem;
+}
+
+.block__title {
+    font-size: 7rem;
+    line-height: 1.3;
+    width: 100%;
+}
+
+.block__title-small {
+    font-size: 3rem;
+}
+
+.block__title-white {
+    font-size: 3rem;
+    color:#efefef;
+    background-color: rgb(44,37,43);
+}
+
+
+.section-six__title {
+    color:#7eb8e1;
+    font-size: 3rem;
+    line-height: 1.7;
+    font-weight: 600;
+    width:50%;
+    position: absolute;
+    top: 85%;
+    left: 30%;
+}
+
+.section-six__title--white {
+    color:#efefef;
+    font-size: 3rem;
+    background-color: rgb(44,37,43);
+    font-weight: 600;
+}
+
+
+/*************  section seven   ************/
+
+.section-seven {
+    background: url(img/kid.png) center/cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.section-seven h2 {
+    display: none;
+}
+
+
+/**********  footer    *************/
+
+.footer {
+    width:100%;
+    background: #000;
+    padding-bottom: 5vh;
+}
+
+.footer-block {
+    padding: 40vh 100px;
+}
+
+.footer-title {
+    color:#efefef;
+    width:70%;
+    font-size: 8rem;
+    line-height: 1.4;
+}
+
+
+.footer-btn {
+    color:white;
+    border:1px solid white;
+    padding: 20px 30px;
+    font-size: 2rem;
+    display: inline-block;
+    margin-top: 50px;
+    
+}
+
+.footer-btn:hover {
+    box-shadow: 5px 5px 0 rgb(255,255,255);
+}
+
+.footer-copyright {
+    color:rgb(238, 238, 238);
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.roma {
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: rgb(36, 165, 116); 
+    cursor: pointer;
+}
+
+.roma:hover {
+    border-bottom: 1px solid  rgb(36, 165, 116);
+}
